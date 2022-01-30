@@ -8,6 +8,6 @@
  1. Download the repository
  2. Unzip the zip file
  3. Go to chrome://extensions
- 4. turn on developer mode
- 5. click on load unpacked
- 6. select the folder and you are good to go!
+ 4. Turn on developer mode
+ 5. Click on load unpacked
+ 6. Select the folder and you are good to go!

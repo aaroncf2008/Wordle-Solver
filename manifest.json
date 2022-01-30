@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Wordle Solver",
     "description": "Automatically Solve Wordle Puzzles",
-    "version": "1.0.2",
+    "version": "1.0.1",
     "icons": {
         "16": "icons/16.png",
         "48": "icons/48.png",
