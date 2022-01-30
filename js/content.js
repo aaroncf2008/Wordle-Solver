@@ -98,7 +98,7 @@ document.addEventListener ("keydown", function (zEvent) {
         
         for(var item in solutionletters){
             item = solutionletters[item];
-            console.log(item);
+            //console.log(item);
             var divnum = divguide[item];
             var buttonnum = buttonguide[item];
             var button = document.querySelector("body > game-app").shadowRoot.querySelector("#game > game-keyboard").shadowRoot.querySelector(`#keyboard > div:nth-child(${divnum}) > button:nth-child(${buttonnum})`);
