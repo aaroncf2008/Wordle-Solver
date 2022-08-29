@@ -29,12 +29,13 @@ document.addEventListener ("keydown", function (zEvent) {
         //var b = document.querySelector("body > game-app").shadowRoot.querySelector("#game > game-keyboard").shadowRoot.querySelector("#keyboard > div:nth-child(3) > button:nth-child(6)");
         //var n = document.querySelector("body > game-app").shadowRoot.querySelector("#game > game-keyboard").shadowRoot.querySelector("#keyboard > div:nth-child(3) > button:nth-child(7)");
         //var m = document.querySelector("body > game-app").shadowRoot.querySelector("#game > game-keyboard").shadowRoot.querySelector("#keyboard > div:nth-child(3) > button:nth-child(8)");
-        var wordlecookie = localStorage.getItem("gameState");
+        var wordlecookie = localStorage.getItem("nyt-wordle-state");
         //var solution = wordlecookie["solution"];  
         var wordlecookieparsed = JSON.parse(wordlecookie);
+        console.log(wordlecookie);
         var solution = wordlecookieparsed.solution;
         var enter = document.querySelector("body > game-app").shadowRoot.querySelector("#game > game-keyboard").shadowRoot.querySelector("#keyboard > div:nth-child(3) > button:nth-child(1)");
-        document.querySelector("body > game-app").shadowRoot.querySelector("#game > header > div.title").innerHTML = "CRACKED";
+        document.querySelector("body > game-app").shadowRoot.querySelector("game-theme-manager > header > div.title").value = "CRACKED";
         //var solution = new wordle.bundle.GameApp().solution;
         var solutionletters = solution.split("");
         var divguide = {
